@@ -5,7 +5,7 @@ RUN go get -u github.com/beego/bee
 ENV GO111MODULE=auto
 ENV GOFLAGS=-mod=vendor
 ENV APP_USER app
-ENV APP_HOME go/src/mathapp
+ENV APP_HOME /go/src/mathapp
 
 ARG GROUP_ID 
 ARG USER_ID
