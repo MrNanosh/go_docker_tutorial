@@ -2,7 +2,7 @@ FROM golang:1.14
 
 RUN go get -u github.com/beego/bee
 
-ENV GO111MODULE=on
+ENV GO111MODULE=auto
 ENV GOFLAGS=-mod=vendor
 ENV APP_USER app
 ENV APP_HOME go/src/mathapp
